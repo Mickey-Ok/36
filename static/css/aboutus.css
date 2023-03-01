@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(213, 241, 232);
+}
+h1{
+    color: black;
+    font-size: 10px;
+}
+p{
+    float:right;
+    padding-bottom: 5px;
+    box-sizing: content-box;
+}

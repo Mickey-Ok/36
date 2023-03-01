@@ -1,0 +1,127 @@
+body{
+    margin-top:20px;
+    color:#fff;
+    background-image:url("https://wallpaperaccess.com/full/524425.jpg") ;
+}
+input {
+    outline: none;
+    border: none
+}
+
+.btn-info {
+    outline:none;
+    border: none;
+    background: 0 0;
+    
+}
+.imgg{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+button:hover {
+    cursor: pointer
+}
+
+.login-page {
+    height: 90%;
+    position: absolute;
+    max-width: 330px;
+    padding: 40px;
+     top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    overflow: auto; 
+    background-image: url('');
+    text-align: center;
+    color: #000000;
+    /*padding: 3em;*/
+    
+
+}
+.user-avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.login-page h1 {
+    font-weight: 800;
+}
+
+.login-page .form-content {
+    padding: 2px 0;
+}
+
+.login-page .form-content .input-underline {
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid rgba(27, 4, 233, 0.4);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+.login-page .form-content .input-underline:focus {
+    border-bottom: 2px solid #f70303;
+}    
+
+.input-lg {
+    height: 25px;
+    padding: 5px 5px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 0;
+}
+
+.btn-info{
+   /* border-radius: 50px;
+     rgba(5, 248, 147, 0.8)inset;
+    color: rgba(7, 7, 7, 0.8);
+    background: 0 0;
+    border-color: transparent;
+    font-weight: 400;
+*/
+    height: 46px;
+    width: max-content;
+    /* padding-left:50px;  */
+    font-size: 18px;
+    border-radius: 0;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.2;
+    justify-content: center;
+    /*padding: 0 20px;*/
+    height: 25px;
+    border-radius: 25px;
+    margin-bottom: -1px;
+    min-width: 300px;
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    /* padding: 20px 0px 20px 0px; */
+    background-color: #85b6f5;
+    
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3)
+    
+   
+}
+
+input[type='text']::-webkit-input-placeholder, input[type='password']::-webkit-input-placeholder { 
+    color:    #210af0;
+}
+input[type='text']:-moz-placeholder, input[type='password']:-moz-placeholder { 
+    color:    #210af0;
+}
+input[type='text']::-moz-placeholder, input[type='password']::-moz-placeholder { 
+    color:   #210af0;
+}
+input[type='text']:-ms-input-placeholder, input[type='password']:-ms-input-placeholder { 
+    color:    #210af0;
+}
